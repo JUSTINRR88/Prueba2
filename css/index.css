@@ -1,0 +1,52 @@
+.caja{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.header{
+    margin-top: 20px;
+    padding: auto;
+    display: flex;
+    width: 1000px;
+    height: 100px;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+}
+
+.padre{
+    width: 1000px;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 50px 50px;
+}
+.h1{
+    width: 200px;
+    height: 480px;
+    background-color: red;
+}
+.h2{
+    width: 480px;
+    height: 480px;
+    background-color: green;
+    display: flex;
+    gap: 20px;
+}
+.h2 div{
+    width: 100%;
+    height: 50%;
+    display: flexs;
+    background-color: yellow;
+
+}
+
+.morado{
+    width: 1000px;
+    height: 200px;
+    background-color: purple;
+}
+
